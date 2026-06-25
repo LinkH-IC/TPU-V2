@@ -1,0 +1,10 @@
+# Simulation build artifacts (cocotb / Verilator)
+sim_build/
+sim_build_waves/
+__pycache__/
+*.pyc
+*.vcd
+results.xml
+
+# Weights produced by running the on-chip training bench
+/tb/train_cnn/trained_cnn.npz
